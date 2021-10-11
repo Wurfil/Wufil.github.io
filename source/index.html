@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cупер дешево, качественно и бистро">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Веб-разработка</title>
 </head>
 
 <body>
     <div class="preloader">
         <div class="preloader__row">
-          <div class="preloader__item"></div>
-          <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
         </div>
-      </div>
-    <header>
-        <nav>
+    </div>
+    <div class="nav-overlay"></div>
+    <nav>
+        <header>
             <div class="logo">Алексей</div>
-            <div class="menu">
+            <menu>
                 <ul>
                     <li><a href="#">Обо мне</a></li>
                     <li><a href="#">Услуги</a></li>
@@ -27,186 +31,471 @@
                     <li><a href="#">Отзывы</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="main">
-        <div class="title_conteiner">
+            </menu>
+        </header>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Навигация
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Обо мне</a></li>
+                <li><a class="dropdown-item" href="#">Услуги</a></li>
+                <li><a class="dropdown-item" href="#">Кейсы</a></li>
+                <li><a class="dropdown-item" href="#">Прайс</a></li>
+                <li><a class="dropdown-item" href="#">Отзывы</a></li>
+                <li><a class="dropdown-item" href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="title_conteiner">
+        <main>
             <h1>Привет <br> Я Алексей</h1>
             <h4>Фулл-стек профи в чём-то</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
-        </div>
+            <div class="but">
+                <input type="submit" value="Обо мне">
+                <input type="submit" value="Мои работы">
+            </div>
+        </main>
     </div>
-    <div class="about">
-        <h2>Обо мне</h2>
-        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B02.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit pariatur quos repellendus explicabo
-            corrupti corporis, atque laborum id, non quia nam eveniet ab. Vero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, dolores vero assumenda veritatis odit
-            iste. Laboriosam quasi, explicabo sequi, optio reprehenderit aut impedit repellendus?</p>
-
-        <input type="submit" value="Скачать резюме">
+    <div class="container">
+        <div class="about">
+            <div class="row justify-content-center">
+                <div class="py-5"></div>
+                <div class="col-lg-2">
+                    <h2>Обо мне</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-sm-2">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+                <div class="py-3"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <p class="pic"><img src="img/fot1.png" alt=""></p>
+                </div>
+            </div>
+            <div class="py-4"></div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi eveniet at
+                        quae, porro
+                        delectus est dolorem? Ea deleniti velit atque eos, odio tempora molestiae adipisci fuga itaque
+                        quasi aliquid vel quam pariatur fugiat porro blanditiis magnam dignissimos. Autem, eos? </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <p class="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quas officia sint ad
+                        corporis!
+                        Totam facere ullam deleniti alias id, quam aspernatur atque minima sapiente tenetur, accusantium
+                        beatae tempora? Nemo.</p>
+                </div>
+            </div>
+            <div class="py-5"></div>
+            <div class="row justify-content-center">
+                <div class="col-xl-2 col-lg-2">
+                    <p class="pic"><input type="submit" value="Скачать резюме"></p>
+                </div>
+            </div>
+        </div>
+        <div class="py-4"></div>
     </div>
     <div class="skills">
-        <h2>Что я умею</h2>
-        <ul>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="py-5"></div>
+                <div class="col-xxl-3 col-sm-4">
+                    <h2>Что я умею</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+            </div>
+            <ul>
+                <div
+                    class="row my-lg-5 py-lg-5 py-sm-0 my-sm-0 justify-content-xl-between d-sm-flex justify-content-sm-center">
+                    <div class="col-xl-2 col-lg-3 col-sm-7">
+                        <li>
+                            <img src="img/laptop.png" alt="">
+                            <h4>Веб-дизайн</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora recusandae
+                                assumenda repellendus, quam veniam optio esse placeat tenetur magni!</p>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-7 my-lg-0 py-lg-0 py-sm-4 my-sm-4">
+                        <li>
+                            <img src="img/sign.png" alt="">
+                            <h4>Разработка</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora recusandae
+                                assumenda repellendus, quam veniam optio esse placeat tenetur magni!</p>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-7">
+                        <li>
+                            <img src="img/rocket.png" alt="">
+                            <h4>CEO-оптимизация</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora recusandae
+                                assumenda repellendus, quam veniam optio esse placeat tenetur magni!</p>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-7 my-lg-0 py-lg-0 py-sm-4 my-sm-4">
 
-            <li>
-                <img src="img/ноут.png" alt="">
-                <h4>Веб-дизайн</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </li>
+                        <li>
+                            <img src="img/gramophone.png" alt="">
+                            <h4>Маркетинг</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora recusandae
+                                assumenda repellendus, quam veniam optio esse placeat tenetur magni!</p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
 
-            <li>
-                <img src="img/знак.png" alt="">
-                <h4>Разработка</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </li>
-
-            <li>
-                <img src="img/ракета.png" alt="">
-                <h4>CEO-оптимизация</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </li>
-
-            <li>
-                <img src="img/граммофон.png" alt="">
-                <h4>Маркетинг</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            </li>
-
-        </ul>
+        </div>
     </div>
     <div class="cases">
-        <h2>Кейсы</h2>
-        <p class="head">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.jpg" alt="Здесь должна быть картинка">
-        <div class="proj">
-            <h4>Название проекта</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum modi deserunt cupiditate voluptas
-                alias sunt, ex suscipit maxime minus optio totam commodi placeat natus!</p>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="py-md-3"></div>
+                <div class="col-lg-2">
+                    <h2>Кейсы</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-sm-2">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+                <div class="py-3"></div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="pic">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                    </div>
+                </div>
+                <div class="py-4"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pic"><img src="img/case.jpg" alt="" class="responsive"></div>
+                    </div>
+                </div>
+                <div class="py-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-4 order-sm-last order-md-first">
+                    <h4>CLIENT</h4>
+                    <p>Какая-то компания</p>
+                    <h4>WEBSITE</h4>
+                    <a href="#">https://www.somedomen.com</a>
+                    <div class="py-2"></div>
+                    <input type="submit" value="visit live site">
+                </div>
+                <div class="col-md-9 col-sm-12 order-sm-first order-md-last">
+                    <h4>Название проекта</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum modi deserunt cupiditate
+                        voluptas alias sunt, ex suscipit maxime minus optio totam commodi placeat natus!</p>
+                </div>
+            </div>
         </div>
-        <div class="comp">
-            <h3>CLIENT:</h3>
-            <p>Какая-то компания</p>
-            <h5>WEBSITE:</h5>
-            <a href="#">http://www.somesite.com</a>
-            <br>
-            <input type="submit" value="visit live site">
-        </div>
-
     </div>
+    <div class="py-5"></div>
     <div class="price">
-        <h2>Рассчет стоимости</h2>
-        <h3>Тип сайта</h3>
-        <select name="TypeSite" id="list1">
-            <option value="Op0" selected disabled>Выберите пунтк...</option>
-            <option value="Op1">Сайт-визитка</option>
-            <option value="Op2">Корпоративный сайт</option>
-            <option value="Op3">Интеренет-магазин</option>
-        </select>
-        <h3>Дизайн</h3>
-        <select name="Dedsing" id="list2">
-            <option value="Op0" selected disabled>Выберите пунтк...</option>
-            <option value="Op1">Красивый</option>
-            <option value="Op2">Ещё лучше</option>
-            <option value="Op3">Стиль ягнят</option>
-
-        </select>
-        <h3>Адаптивность</h3>
-        <select name="Adapt" id="list3">
-            <option value="Op0" selected disabled>Выберите пунтк...</option>
-            <option value="Op1">ПК</option>
-            <option value="Op2">Смартфон</option>
-            <option value="Op3">Полная</option>
-        </select>
-        <h4>Cроки</h4> <span>0</span>
-        <h4>Стоимость</h4> <span>0</span>
+        <div class="container">
+            <div class="shadow p-3 mb-5 bg-white rounded">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="py-3"></div>
+                        <div class="pic">
+                            <h2>Рассчет стоимости</h2>
+                            <div class="py-3"></div>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <h3>Тип сайта</h3>
+                                <div class="py-2"></div>
+                                <select name="TypeSite" id="list1">
+                                    <option value="Op0" selected disabled>Выберите пунтк...</option>
+                                    <option value="Op1">Сайт-визитка</option>
+                                    <option value="Op2">Корпоративный сайт</option>
+                                    <option value="Op3">Интеренет-магазин</option>
+                                </select>
+                                <div class="py-2"></div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <h3>Дизайн</h3>
+                                <div class="py-2"></div>
+                                <select name="Dedsing" id="list2">
+                                    <option value="Op0" selected disabled>Выберите пунтк...</option>
+                                    <option value="Op1">Красивый</option>
+                                    <option value="Op2">Ещё лучше</option>
+                                    <option value="Op3">Стиль ягнят</option>
+                                </select>
+                                <div class="py-2"></div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <div class="py-2"></div>
+                                <h3>Адаптивность</h3>
+                                <select name="Adapt" id="list3">
+                                    <option value="Op0" selected disabled>Выберите пунтк...</option>
+                                    <option value="Op1">ПК</option>
+                                    <option value="Op2">Смартфон</option>
+                                    <option value="Op3">Полная</option>
+                                </select>
+                                <div class="py-2"></div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-10">
+                                <div class="py-2"></div>
+                                <img src="img/line.png" alt="" class="responsive">
+                                <div class="py-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10">
+                        <div class="niz">
+                            <div class="row justify-content-center">
+                                <div class="col-10"></div>
+                                <div class="row justify-content-center">
+                                    <div class="col-8">
+                                        <h4>Cроки</h4>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="row justify-content-end">
+                                            <div class="col-2">
+                                                <p>0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-10"></div>
+                                <div class="row justify-content-center">
+                                    <div class="col-8">
+                                        <h4>Стоимость</h4>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="row justify-content-end">
+                                            <div class="col-2">
+                                                <p>0</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-2"></div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-2 col-sm-4">
+                                    <input type="submit" value="Оставить заявку">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="stat">
-        <h2>Немного статистики</h2>
-        <ul>
-            <li><img src="img/%D1%81%D0%BC%D0%B0%D0%B9%D0%BB.png" alt="">
-                <h4>120</h4>
-                <p>Счастливых клиентов</p>
-            </li>
-            <li><img src="img/%D1%81%D0%BA%D0%BE%D0%B1%D0%BA%D0%B8.png" alt="">
-                <h4>4,600</h4>
-                <p> Часов работы</p>
-            </li>
-            <li><img src="img/%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0.png" alt="">
-                <h4>340</h4>
-                <p> Проектов завершено</p>
-            </li>
-            <li><img src="img/%D0%BA%D1%83%D0%B1%D0%BE%D0%BA.png" alt="">
-                <h4>23</h4>
-                <p> Награды получено</p>
-            </li>
-        </ul>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="py-5"></div>
+                <div class="col-12">
+                    <h2>Немного статистики</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+            </div>
+            <div class="py-3"></div>
+            <ul>
+                <div
+                    class="row my-lg-5 py-lg-5 py-sm-0 my-sm-0 justify-content-xl-between d-sm-flex justify-content-sm-center ">
+                    <div class="col-xl-2 col-lg-3 col-sm-7">
+                        <li><img src="img/sm.png" alt="">
+                            <h4>120</h4>
+                            <p>Счастливых клиентов</p>
+                        </li>
+                    </div>
 
-    </div>
-    <div class="feedback">
-        <h2>Отзывы</h2>
-        <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nihil doloremque, pariatur perspiciatis?
-            Est, voluptate.</p>
-        <span><span class="name">Михаил</span>, Ген директор ПАО "Газпром"</span>
-        <br>
-        <div class="or">
-            <img src="img/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6.png" alt="">
-            <img src="img/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" alt="">
-            <img src="img/%D0%9E%D1%80%D0%B0%D0%BD%D0%B6%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" alt="">
+                    <div class="col-xl-2 col-lg-3 col-sm-7 my-lg-0 py-lg-0 py-sm-4 my-sm-4">
+                        <li><img src="img/skb.png" alt="">
+                            <h4>4,600</h4>
+                            <p> Часов работы</p>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-7">
+                        <li><img src="img/check.png" alt="">
+                            <h4>340</h4>
+                            <p> Проектов завершено</p>
+                        </li>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-sm-7 my-lg-0 py-lg-0 py-sm-4 my-sm-4">
+                        <li><img src="img/cup.png" alt="">
+                            <h4>23</h4>
+                            <p> Награды получено</p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
         </div>
-
     </div>
+    <div class="py-5"></div>
+    <div class="feedback">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="py-4"></div>
+                <div class="col-12">
+                    <h2>Отзывы</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-sm-4">
+                    <p class="text-center">
+                        <img src="img/chel.png" alt="">
+                    </p>
+                </div>
+            </div>
+            <div class="py-2"></div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-sm-10">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nihil
+                        doloremque, pariatur
+                        perspiciatis?
+                        Est, voluptate.</p>
+                </div>
+            </div>
+            <div class="py-2"></div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <p class="text-center"><span><span class="name">Михаил</span>, Ген директор ПАО "Газпром"</span></p>
+                </div>
+            </div>
+            <div class="py-4"></div>
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <p class="text-center">
+                        <img src="img/orange.png" alt="">
+                        <img src="img/ball.png" alt="">
+                        <img src="img/ball.png" alt="">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="py-5"></div>
     <div class="contact">
-        <h2>Мои контакты</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit.</p>
-        <ul>
+        <div class="container">
+            <div class="py-5"></div>
+            <div class="row justify-content-center">
+                <div class="py-lg-1 py-sm-0"></div>
+                <div class="col-12">
+                    <h2>Мои контакты</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <p class="pic"><img src="img/LineHead.png" alt=""></p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-sm-7">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit.</p>
+                </div>
+            </div>
 
-            <li>
-                <img src="img/%D0%B3%D0%B5%D0%BE.png" alt="">
-                <br>
-                <h4>Москва, Кутузовский проспект, 9к2</h4>
-            </li>
+            <ul>
+                <div
+                    class="row my-lg-4 py-lg-4 py-sm-0 my-sm-0 justify-content-xl-between d-sm-flex justify-content-sm-center ">
+                    <div class="col-xl-4 col-lg-4 col-sm-7">
+                        <li>
+                            <img src="img/geo.png" alt="">
+                            <br>
+                            <h4>Москва, Кутузовский проспект, 9к2</h4>
+                        </li>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-sm-7 my-lg-0 py-lg-0 py-sm-4 my-sm-4">
+                        <li>
+                            <img src="img/mail.png" alt="">
+                            <br>
+                            <h4>info@gmail.com</h4>
+                        </li>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-sm-7">
+                        <li>
+                            <img src="img/phone.png" alt="">
+                            <br>
+                            <h4>+7 777 777 77-77</h4>
+                        </li>
+                    </div>
 
-            <li>
-                <img src="img/%D0%BA%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82.png" alt="">
-                <br>
-                <h4>info@gmail.com</h4>
-            </li>
-            <li>
-                <img src="img/%D1%82%D1%80%D1%83%D0%B1%D0%B0.png" alt="">
-                <br>
-                <h4>+7 777 777 77-77</h4>
-            </li>
-        </ul>
+            </ul>
 
-        <h3>Оставьте мне сообщение</h3>
-        <input type="text" name="name" placeholder="Имя">
-        <input type="text" name="mail" placeholder="Email">
-        <br>
-        <textarea name="messang" placeholder="Сообщение" id="" cols="30" rows="10"></textarea>
-        <br>
-        <div class="enter">
-            <input type="submit" value="Отправить">
+            <h3>Оставьте мне сообщение</h3>
+            <div class="py-3"></div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                   
+                    <div class="form-floating">
+                        <input type="name" class="form-control" id="floatingPassword" placeholder="Имя">
+                        <label for="floatingPassword" >Имя</label>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">E-mail</label>
+                    </div>
+
+                </div>
+                <div class="py-2"></div>
+                <div class="col-8">
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Сообщение</label>
+                      </div>
+                </div>
+                
+            </div>
+            <div class="py-3"></div>
+            <div class="enter">
+                <input type="submit" value="Отправить">
+            </div>
         </div>
     </div>
     <div class="map">
-        <img src="img/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%D0%BA%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" alt="">
+        <img src="img/map.png" alt="" class="responsive">
 
     </div>
     <footer>Copyright © 2021 Алексей Соколов. Design by Web </footer>
     <script>
         window.onload = function () {
-          document.body.classList.add('loaded_hiding');
-          window.setTimeout(function () {
-            document.body.classList.add('loaded');
-            document.body.classList.remove('loaded_hiding');
-          }, 500);
+            document.body.classList.add('loaded_hiding');
+            window.setTimeout(function () {
+                document.body.classList.add('loaded');
+                document.body.classList.remove('loaded_hiding');
+            }, 500);
         }
-      </script>
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
