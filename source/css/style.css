@@ -174,7 +174,7 @@ main{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 650px){
 
     header{
         width: 50%;
@@ -194,7 +194,6 @@ main{
     }
     main{
         width: 70%;
-        height: 40%;
     }
 }
 .pp{
@@ -242,14 +241,8 @@ main{
 @media (max-width: 992px){ 
     .skills{
         background:none;
-        height: 140%;
-    }
+      }
     
-}
-@media (max-width: 500px){
-    .stat{
-        height: 90%;
-    }
 }
 
 .skills h4{
@@ -336,9 +329,7 @@ main{
 
     font-weight: bold;
 }
-.price{
-    height: 95%;
-}
+
 .niz{
     width: 91.5%;
 }
@@ -387,7 +378,6 @@ main{
 }
 .stat{
     width: 100%;
-    height: 60%;
     background: url(../img/fon_paral.jpg) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
