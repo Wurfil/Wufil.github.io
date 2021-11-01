@@ -218,13 +218,16 @@ menu li a:active{
 .lock-scroll {
   overflow: hidden;
 }
+.responsive {
+    width: 100%;
+    height: auto;
+}
 .logo a{
     color: #FFF;
     text-decoration: none;
   }
 .history{
-    height: 80%;
-
+    min-height: 80%;
 }
 .history img{
     border: solid #000 2px;
@@ -244,6 +247,11 @@ footer{
     line-height: 125px;
     color: #FFF;
     text-align: center;
+  }
+  @media (max-width:400px) {
+    footer p{
+        font-size: 10px;
+      }
   }
 .date{
     color: #b8b8b8;
