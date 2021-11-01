@@ -364,9 +364,9 @@ h1{
 }
 @media (max-width:600px) {
     footer p{
-        font-size: 10px;
+        font-size:10px;
       }
-  }
+}
 .filt{
     border-radius: 10px;
     background-color: blue;
