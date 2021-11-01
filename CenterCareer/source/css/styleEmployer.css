@@ -513,3 +513,8 @@ footer{
         font-size: 8px;
     }
   }
+  @media (max-width:400px) {
+    footer p{
+        font-size: 10px;
+      }
+  }
