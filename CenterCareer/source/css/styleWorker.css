@@ -1,0 +1,11 @@
+@media (max-width:992px) {
+    .inst span{
+        font-size: 13px;
+    }
+    .info{
+        height: 500px !important;
+    }
+    .bl{
+        height: 450px;
+    }
+}

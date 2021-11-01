@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wurfil">
+    <link rel="shortcut icon" href="img/Group (5).ico" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleVacancies.css">
+    <title>Актуальные вакансии - Центр карьеры - Московский технологический университет</title>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="logo">
+                <img src="img/airplane.png" alt="" class="responsive_mini" width="40" height="30">
+                <a href="index.html"><h2>Ценрт Карьеры</h2></a>
+            </div>
+            <menu>
+                <ul>
+                    <li><a href="vacancies.html">вакансии</a></li>
+                    <li><a href="index.html#act">мероприятия</a></li>
+                    <li><a href="#">стажировки</a></li>
+                    <li><a href="index.html#studEmp">студенту и работодателю</a></li>
+                    <li><a href="index.html#stories">истории успеха</a></li>
+                    <li><a href="index.html#jorn">журнал</a></li>
+                    <li><a href="https://www.mirea.ru/">на mirea.ru</a></li>
+                    <li><a href="#">почему выбирают нас</a></li>
+                </ul>
+            </menu>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox" class="toggler" onclick="lockScroll();" />
+
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul class="menubox">
+                    <li><a onclick="toggle()" class="menu-item" href="vacancies.html">вакансии</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#act">мероприятия</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="#">стажировки</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#studEmp">студенту и работодателю</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#stories">истории успеха</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#jorn">журнал</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="https://www.mirea.ru/">на mirea.ru</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="#">почему выбирают нас</a></li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+    <div class="py-5"></div>
+    <div class="py-3"></div>
+    <h1>Актуальные вакансии</h1>
+    <div class="py-3"></div>
+    <div class="filter">
+        <form class="search">
+            <input type="text" placeholder="Поиск" class="string">
+            <button type="submit" type="button"></button>
+        </form>
+        <div class="py-3"></div>
+        <h2>Фильтр</h2>
+        <form class="search_filter">
+            <p>Теги:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-2"></div>
+            <p>Ближайшее метро:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-3"></div>
+            <p>Образование:</p>
+            <label class="cont">
+                <input type="checkbox" name="option1">
+                Высшее
+            </label>
+            <label class="cont">
+                <input type="checkbox" name="option2">
+                Неполное высшее
+            </label>
+            <div class="py-3"></div>
+            <p>График работы:</p>
+            <label class="cont">
+                <input type="checkbox" name="option3">
+                Высшее
+            </label>
+            <label class="cont">
+                <input type="checkbox" name="option4">
+                Freelance
+            </label>
+            <label class="cont">
+                <input type="checkbox" name="option5">
+                Неполный рабочий день
+            </label>
+            <label class="cont">
+                <input type="checkbox" name="option6">
+                Полный рабочий день
+            </label>
+            <label class="cont">
+                <input type="checkbox" name="option7">
+                Сменный график
+            </label>
+            <div class="py-3"></div>
+            <div class="btns">
+                <button class="filt">
+                    Фильтр
+                </button>
+                <button type="reset" class="reset">
+                    Сброс
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+    <div class="py-4"></div>
+    <div class="vac-cover">
+        <div class="vac">
+            <img src="img/work.png" alt="" width="110" height="110">
+            <div class="text">
+                <a href="">
+                    <h2>Разработчик C# - javaScript</h2>
+                </a>
+                <h3>Компания: Trace</h3>
+                <h3>Дата публикации: 14.09.2021</h3>
+                <h3>Ближайшее метро: Савеловская</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="py-5"></div>
+    <footer>
+        <p>МИРЭА — Российский технологический университет, 2021 г.</p>
+    </footer>
+</body>
+
+</html>
