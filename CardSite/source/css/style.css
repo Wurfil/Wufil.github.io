@@ -1,0 +1,467 @@
+@font-face {
+	font-family: 'FrankGot';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+html,body{
+    height: 100vh;
+ }
+body{
+    font-family: 'FrankGot', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    z-index: 2;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    line-height: 58px;
+    display: flex;  
+    width: 70%;
+    height: 60px;
+    justify-content: space-between;
+}
+h2{
+    font-size: 25px;
+    color: rgb(26, 32, 44);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo{
+    font-size: 20px;
+    -webkit-animation: Logoshift 2s ease;
+    -o-animation: Logoshift 2s ease;
+    animation: Logoshift 2s ease;
+}
+@keyframes Logoshift{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+menu{
+    
+    width: 50%;
+}
+menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+menu li{
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-animation: being 0.4s forwards;
+    -o-animation: being 0.4s forwards;
+    animation: being 0.4s forwards;
+    opacity: 0;
+}
+menu a:visited{
+    color: white;
+}
+menu li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.15s;
+    transform: scale(1);
+    display: inline-block;   
+}
+@keyframes being{
+    from{
+        margin-top: -200px
+    }
+    to{
+        margin-top: 0px;
+        opacity: 1;
+
+    }
+}
+menu li a:hover{
+    transform: scale(1.05);
+    color: #ed9715;
+}
+menu li a:active{
+    transform: scale(0.95);
+}
+menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+menu li:nth-child(6){
+    animation-delay: 2s;
+}
+.title_conteiner{
+    background: url(../img/man.png) 90% 100%/auto 85% no-repeat ,url(../img/fon.jpg) center/cover no-repeat;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    width: 65%;
+    height: 18%;
+    -webkit-animation: leftshift 1s;
+    -o-animation:leftshift 1s;
+    animation:leftshift 1s ;
+}
+.dropdown{
+    opacity: 0;
+}
+@keyframes leftshift{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+.title_conteiner input:hover{
+    background-color: #263244;
+    color: white;
+}
+.title_conteiner input:active{
+    transform: scale(1.1);
+}
+.title_conteiner h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #2c384a;
+}
+.title_conteiner h4{
+    font-size: 20px;
+    color: #79818d
+}
+.title_conteiner input{
+    height: 40px;
+    border: 2px solid #6d7682;
+    color: #6d7682;
+    background: none;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+    text-align: center;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+@media (max-width: 1350px){
+    menu{
+        opacity: 0;
+    }
+    .dropdown{
+        opacity: 1;
+        color: white;
+    }
+}
+
+@media (max-width: 650px){
+
+    header{
+        width: 50%;
+    }
+    .title_conteiner{
+        align-items: center;
+    }
+    .title_conteiner h1{
+        color: white;
+    }
+    .title_conteiner h4{
+        color: white;
+    }
+    .title_conteiner input{
+        border-color: white;
+        color: white;
+    }
+    main{
+        width: 70%;
+    }
+}
+.pp{
+    color: #38475a;
+    text-align: justify;
+    font-size: 14px;
+}
+.pic{
+    text-align:center;
+}
+.about input{
+    width: 160px;
+    height: 34px;
+    text-align: center;
+    padding-left: 12px;
+    border: 3px solid #6f707e;
+    border-radius: 5px;
+    background: none;
+    background: url(../img/icon.png) no-repeat;
+    background-position: 12px 5px;
+    color: #6f707e;
+    transition: all 0.2s;
+    transform: scale(1);
+    
+}
+@keyframes leftmove{
+    from{
+        margin-left: -1500px;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+.about input:hover{
+    color: white;
+    background-color: #263244; 
+}
+.about input:active{
+    transform: scale(1.1);
+}
+.skills{
+    width: 100%;
+    background: url(../img/fon2.jpg) top/100% 530px no-repeat;
+}
+@media (max-width: 992px){ 
+    .skills{
+        background:none;
+      }
+    
+}
+
+.skills h4{
+    color: #cf7600;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    font-weight: bold;   
+}
+.skills li{
+ 
+    text-align: center;
+}
+.skills ul{
+    padding-left: 0;
+    margin-top: 100px;
+}
+.skills p{
+    text-align: center;
+    font-size: 12px;
+}
+.about{
+    width: 100%;
+    height: 100%;
+}
+.responsive_mini{
+    width: auto;
+    height: auto;
+}
+.cases h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+.cases input{
+    width: 205px;
+    height: 45px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    background: #63b5ae;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    transform: scale(1);
+    transition: all 0.5s;
+    
+}
+.cases a{
+    color: coral;
+}
+.cases a:hover{
+    color: #e2a726;
+    text-decoration: underline;
+}
+.cases a:active{
+    color: #cf7600;
+}
+.cases a:checked{
+    color: chocolate;
+}
+.cases input:hover{
+    color: #000;
+    background-color: #e2a726;
+    border-color: #e2a726;
+    transform: translate3d(5px,5px,0px) scale(1.1);
+    
+}
+.cases input:active{
+    transform: scale(0.9);
+}
+.price h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.price select{
+    width: 90%;
+    height: 50px;
+    background: #eee;
+    color: #737373;
+    font-weight: 100px;
+}
+.price h4{
+
+    font-weight: bold;
+}
+
+.niz{
+    width: 91.5%;
+}
+.price img{
+    width: 90%;
+}
+.price input{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    background: #63b5ae;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    transform: scale(1);
+    transition: all 0.5s;
+    
+}
+.price input:hover{
+    color: #000;
+    background-color: #e2a726;
+    border-color: #e2a726;
+    transform: translate3d(5px,5px,0px) scale(1.1);
+    
+}
+.price input:active{
+    transform: scale(0.9);
+}
+.stat li{
+    text-align: center; 
+}
+.stat p{
+    color: #323e4f;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.stat ul{
+    margin: 0;
+    padding: 0;
+}
+.stat h4{
+    font-size:28px;
+    color: #323e4f;
+}
+.stat{
+    width: 100%;
+    background: url(../img/fon_paral.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media (max-width: 992px){ 
+    .stat{
+        background:none;
+        height: 105%;
+    }   
+}
+.contact{
+    width: 100%;
+    height:100%;
+    background: url(../img/fonCont.jpg) center/cover no-repeat;
+    text-align: center;
+    color: white;
+}
+@media (max-width: 1200px) {
+    .contact{
+        height: 125%;
+    }
+    
+}
+.contact h2{
+    color: white;
+}
+.contact li{
+    text-align: center; 
+}
+.contact ul{
+    padding: 0;
+}
+.contact h3{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.contact textarea{
+   
+    height: 92px;
+    padding-left: 8px;
+    color: #5d5d5e;
+    background: #d2d6dc;
+    padding-top: 8px;
+}
+.contact input{
+
+
+    height: 35px;
+    padding-left: 8px;
+    color: #5d5d5e;
+    background: #d2d6dc;
+}
+.enter input{
+    text-align: center;
+    font-weight: bold;
+    width: 125px;
+    height: 45px;
+    border: 2px solid white;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.5s;
+    transform: scale(1);
+    transform-origin:center;
+}
+.enter input:hover{
+    background-color: #fff;
+    color: #000;
+    transform: rotate3d(1,0,0, 20deg);
+}
+.enter input:active{
+    transform: scale(1.1);
+}
+footer{
+    text-align: center;
+    height: 65px;
+    width: 100%;
+    background-color: #344051;
+    line-height: 60px;
+    color: white;
+    font-size: 12px;
+}
