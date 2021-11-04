@@ -1,7 +1,7 @@
 # Алексей Соколов 
 Wed-developer portfolio
 
-/CardSite/source
+https://wurfil.github.io//CardSite/source
 
-/CenterCareer/source
+https://wurfil.github.io//CenterCareer/source
 
