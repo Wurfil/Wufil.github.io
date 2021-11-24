@@ -966,6 +966,9 @@ display: inline-block;
     display: none;
   }
 }
+.item a{
+  color: #FFF;
+}
 .jornNews a{
   color: #FFF;
 }
