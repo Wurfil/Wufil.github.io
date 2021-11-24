@@ -966,6 +966,15 @@ display: inline-block;
     display: none;
   }
 }
+.jornNews a:visited{
+  color: #FFF;
+}
+.jornNews a:hover{
+  color: rgb(232, 202, 240);
+}
+.jornNews a:checked{
+  color: #FFF;
+}
 .opst2{
   display: none;
 }
