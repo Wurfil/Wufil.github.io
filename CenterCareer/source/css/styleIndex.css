@@ -966,8 +966,8 @@ display: inline-block;
     display: none;
   }
 }
-a{
-  color: #FFF;
+.new a{
+  color: #FFF !important;
 }
 .jornNews a{
   color: #FFF;
