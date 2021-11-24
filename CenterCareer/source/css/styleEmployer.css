@@ -254,12 +254,59 @@ h1{
     width: 400px;
     height: 500px;
   }
+  .info p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 1rem;
+  }
+  .info button{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #F9F9F9 !important;
+    border: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+  .info button:hover{
+    background-color: #F9F9F9 !important;
+    color: #7e6ab4 !important;
+    text-decoration: none;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .info button:active{
+    background-color: #F9F9F9 !important;
+    color: #000 !important;
+    text-decoration: none;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .info button:visited{
+    background-color: #F9F9F9 !important;
+    color: #000 !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  .info .modal-body{
+    padding: 0;
+  }
   .info img{
     padding-right: 20px;
+  }
+  .conv img{
+    padding-right: 0px;
   }
   .info li{
     padding-top: 30px;
     font-size: 18px;
+  }
+  .info a{
+    color: #000;
+  }
+  .info a:visited{
+    color: #000;
   }
   .info a{
     text-decoration: none;

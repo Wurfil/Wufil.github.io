@@ -19,6 +19,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <title>Центр карьеры - Московский технологический университет</title>
 </head>
 
@@ -27,35 +28,39 @@
         <header>
             <div class="logo">
                 <img src="img/airplane.png" alt="" class="responsive_mini" width="40" height="30">
-                <a href="index.html"><h2>Ценрт Карьеры</h2></a>
+                <a href="index.html">
+                    <h2>Ценрт Карьеры</h2>
+                </a>
             </div>
             <menu>
                 <ul>
                     <li><a href="vacancies.html">вакансии</a></li>
-                    <li><a href="#act">мероприятия</a></li>
-                    <li><a href="#">стажировки</a></li>
+                    <li><a href="activ.html">мероприятия</a></li>
+                    <li><a href="probation.html">стажировки</a></li>
                     <li><a href="#studEmp">студенту и работодателю</a></li>
                     <li><a href="#stories">истории успеха</a></li>
-                    <li><a href="#jorn">журнал</a></li>
+                    <li><a href="index.html#jorn">журнал</a></li>
                     <li><a href="https://www.mirea.ru/">на mirea.ru</a></li>
-                    <li><a href="#">почему выбирают нас</a></li>
+                    <li><a href="info.html">О нас</a></li>
+                    <li><a href="enter.html">Вход</a></li>
                 </ul>
             </menu>
             <div class="burger-menu">
-                <input id="menu-toggle" type="checkbox" class="toggler"  onclick="lockScroll();"/>
+                <input id="menu-toggle" type="checkbox" class="toggler" onclick="lockScroll();" />
 
                 <label class="menu-btn" for="menu-toggle">
                     <span></span>
                 </label>
                 <ul class="menubox">
                     <li><a onclick="toggle()" class="menu-item" href="vacancies.html">вакансии</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#act">мероприятия</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#">стажировки</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#studEmp">студенту и работодателю</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#stories">истории успеха</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#jorn">журнал</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="activ.html">мероприятия</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="probation.html">стажировки</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#studEmp">студенту и работодателю</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#stories">истории успеха</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html#jorn">журнал</a></li>
                     <li><a onclick="toggle()" class="menu-item" href="https://www.mirea.ru/">на mirea.ru</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#">почему выбирают нас</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="info.html">О нас</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="enter.html">Вход</a></li>
                 </ul>
             </div>
         </header>
@@ -301,7 +306,7 @@
             </div>
         </div>
     </div>
-    <p><a name="act"></a></p> 
+    <p><a name="act"></a></p>
     <div class="py-4"></div>
     <div class="activity">
         <div class="container">
@@ -359,7 +364,7 @@
         <div class="py-2"></div>
         <div class="container-xxl">
             <div class="news">
-                <a href="#">
+                <a href="article.html">
                     <div class="new">
                         <img src="img/Rectangle.png" alt="">
                         <img src="img/grad-1.png" alt="">
@@ -367,7 +372,7 @@
                         <span>29 июня</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="article.html">
                     <div class="new">
                         <img src="img/Rectangle 2.png" alt="">
                         <img src="img/grad-1.png" alt="">
@@ -375,7 +380,7 @@
                         <span>29 июня</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="article.html">
                     <div class="new">
                         <img src="img/Rectangle 3.png" alt="">
                         <img src="img/grad-1.png" alt="">
@@ -383,7 +388,7 @@
                         <span>29 июня</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="article.html">
                     <div class="new">
                         <img src="img/Rectangle 4.png" alt="">
                         <img src="img/grad-1.png" alt="">
@@ -391,7 +396,7 @@
                         <span>29 июня</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="article.html">
                     <div class="new">
                         <img src="img/Rectangle 5.png" alt="">
                         <img src="img/grad-1.png" alt="">
@@ -401,11 +406,13 @@
                 </a>
             </div>
         </div>
-        <div class="py-5"></div>
+        <div class="py-4"></div>
+        <a href="activ.html" class="more"><h4>Больше мероприятий и новости</h4></a>
+        <div class="py-3"></div>
         <h6>Здесь — все события на выбранные даты. <img src="img/image 4.png" alt=""></h6>
 
     </div>
-    <p><a name="stories"></a></p> 
+    <p><a name="stories"></a></p>
     <div class="py-5"></div>
     <div class="stories">
         <div class="container">
@@ -421,44 +428,44 @@
                         <button class="arrow prev"><img src="img/left.png" alt=""></button>
                         <div class="gallery">
                             <ul class="images" style="margin-left: 0px;">
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/1.png"></a><span
-                                        style="position:absolute;left:0;top:0">1</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/1.png"></a><span style="position:absolute;left:0;top:0">1</span>
                                     <h4>Анастасия</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/2.png"></a><span
-                                        style="position:absolute;left:0;top:0">2</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/2.png"></a><span style="position:absolute;left:0;top:0">2</span>
                                     <h4>Евгений</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/3.png"></a><span
-                                        style="position:absolute;left:0;top:0">3</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/3.png"></a><span style="position:absolute;left:0;top:0">3</span>
                                     <h4>Елена</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/4.png"></a><span
-                                        style="position:absolute;left:0;top:0">4</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/4.png"></a><span style="position:absolute;left:0;top:0">4</span>
                                     <h4>Екатерина</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/5.png"></a><span
-                                        style="position:absolute;left:0;top:0">5</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/5.png"></a><span style="position:absolute;left:0;top:0">5</span>
                                     <h4>Виктор</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/6.png"></a><span
-                                        style="position:absolute;left:0;top:0">6</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/6.png"></a><span style="position:absolute;left:0;top:0">6</span>
                                     <h4>Сергей</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/1.png"></a><span
-                                        style="position:absolute;left:0;top:0">7</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/1.png"></a><span style="position:absolute;left:0;top:0">7</span>
                                     <h4>Анастасия</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"></a><img src="img/2.png"></a><span
-                                        style="position:absolute;left:0;top:0">8</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"></a><img
+                                        src="img/2.png"></a><span style="position:absolute;left:0;top:0">8</span>
                                     <h4>Евгений</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/3.png"></a><span
-                                        style="position:absolute;left:0;top:0">9</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/3.png"></a><span style="position:absolute;left:0;top:0">9</span>
                                     <h4>Елена</h4>
                                 </li>
-                                <li style="position: relative;"><a href="historyOfSucсess.html"><img src="img/4.png"></a><span
-                                        style="position:absolute;left:0;top:0">10</span>
+                                <li style="position: relative;"><a href="historyOfSucсess.html"><img
+                                            src="img/4.png"></a><span style="position:absolute;left:0;top:0">10</span>
                                     <h4>Екатерина</h4>
                                 </li>
                             </ul>
@@ -530,9 +537,9 @@
             </div>
         </div>
     </div>
-    <p><a name="studEmp"></a></p> 
+    <p><a name="studEmp"></a></p>
     <div class="py-5"></div>
-    
+
     <div class="info">
         <div class="container">
             <div class="row justify-content-xl-between">
@@ -540,12 +547,68 @@
                     <div class="bl">
                         <h2>Студенту и выпускнику</h2>
                         <ul>
-                            <li><a href=""><img src="img/11.png" alt="">Условия сотрудичнества</a></li>
+                            <li class="conv">
+                                <img src="img/11.png" alt="">
+                                </span><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Условия сотрудичнества
+                                </button>
+
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                Условия сотрудичнества
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Закрыть</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="formWorker.html"><img src="img/22.png" alt="">Регистация соискателя</a></li>
-                            <li><a href=""><img src="img/33.png" alt="">Мероприятия</a></li>
-                            <li><a href=""><img src="img/44.png" alt="">Новости</a></li>
-                            <li><a href=""><img src="img/55.png" alt="">Стажировки</a></li>
-                            <li><a href="vacancies.html"><img src="img/66.png" alt="">Вакансии (включ. раздел для лиц ОВЗ)</a></li>
+                            <li><a href="activ.html"><img src="img/33.png" alt="">Мероприятия</a></li>
+                            <li><a href="activ.html"><img src="img/44.png" alt="">Новости</a></li>
+                            <li><a href="probation.html"><img src="img/55.png" alt="">Стажировки</a></li>
+                            <li><a href="vacancies.html"><img src="img/66.png" alt="">Вакансии (включ. раздел для лиц
+                                    ОВЗ)</a></li>
                         </ul>
 
                     </div>
@@ -555,9 +618,66 @@
                     <div class="bl">
                         <h2>Работодателю</h2>
                         <ul>
-                            <li><a href=""><img src="img/11.png" alt="">Условия сотрудичнества</a></li>
-                            <li><a href="formEmployer.html"><img src="img/22.png" alt="">Регистация работодателя</a></li>
-                            <li><a href=""><img src="img/33.png" alt="">Мероприятия</a></li>
+                            <li class="conv">
+                                <img src="img/11.png" alt="">
+                                </span><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Условия сотрудичнества
+                                </button>
+
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                Условия сотрудичнества
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                                <p>4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatibus
+                                                    veritatis
+                                                    aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                                    consequuntur,
+                                                    eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                                    tempora?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Закрыть</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </li>
+                            <li><a href="formEmployer.html"><img src="img/22.png" alt="">Регистация
+                                    работодателя</a></li>
+                            <li><a href="activ.html"><img src="img/33.png" alt="">Мероприятия</a></li>
                         </ul>
                     </div>
                 </div>
@@ -580,7 +700,7 @@
             </div>
         </div>
     </div>
-    <p><a name="jorn"></a></p> 
+    <p><a name="jorn"></a></p>
     <div class="jorn">
         <div class="py-5 my-5"></div>
         <div class="py-5"></div>
@@ -593,41 +713,42 @@
             <div class="py-2"></div>
             <div class="row justify-content-center">
                 <div class="col-8">
-                    <p>Мы публикуем <span> полезные советы</span> и дайджесты которые помогут вам в карьере. <img
-                            src="img/cash.png" alt=""></p>
+                    <p>Мы публикуем <span> полезные советы</span> и дайджесты которые помогут вам в карьере.
+                        <img src="img/cash.png" alt="">
+                    </p>
                 </div>
             </div>
             <div class="py-xl-5 py-sm-2"></div>
             <div class="jornMenu">
                 <div class="row justify-xl-content-between justify-content-sm-center w-sm-50 w-xl-100 ">
                     <p class="text-center">
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b1">Советы экспертов</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b1">Советы экспертов</button></a></a></div>
                     <div class="py-1 opst1"></div>
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b2">Дайджест вакансий</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b2">Дайджест вакансий</button></a></div>
                     <div class="py-1 opst1"></div>
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b3">Карьерные советы</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b3">Карьерные советы</button></a></div>
                     <div class="py-1 opst1"></div>
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b4">Собеседования</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b4">Собеседования</button></a></div>
                     <div class="py-1 opst1"></div>
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b5">Деловой этикет</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b5">Деловой этикет</button></a></div>
                     <div class="py-1 opst1"></div>
-                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><button type="submit"
-                            class="b6">Трудовой кодекс</button></div>
+                    <div class="col-xl-2 col-sm-4 d-flex justify-content-sm-center"><a href="article.html"><button type="submit"
+                            class="b6">Трудовой кодекс</button></a></div>
                     </p>
                 </div>
             </div>
 
             <div class="py-4"></div>
-           
+
             <div class="jornCover">
-                
+
                 <div class="row justify-content-center">
-                    
+
                     <div class="col-8">
                         <div class="jornNews">
                             <div class="home-demo">
@@ -643,7 +764,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">
@@ -653,7 +774,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 3.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -663,7 +784,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 4.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -673,7 +794,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 5.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -693,7 +814,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">
@@ -713,7 +834,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">
@@ -723,7 +844,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 3.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -733,7 +854,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 4.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -743,7 +864,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 5.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -763,7 +884,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">
@@ -783,7 +904,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">
@@ -793,7 +914,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 3.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -803,7 +924,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 4.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -813,7 +934,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 5.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new ">
@@ -833,7 +954,7 @@
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="#">
+                                        <a href="article.html">
                                             <img src="img/Rectangle 2.png" alt="">
                                             <img src="img/grad-1.png" alt="">
                                             <div class="new">

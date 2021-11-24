@@ -26,13 +26,14 @@
             <menu>
                 <ul>
                     <li><a href="vacancies.html">вакансии</a></li>
-                    <li><a href="index.html#act">мероприятия</a></li>
-                    <li><a href="#">стажировки</a></li>
+                    <li><a href="activ.html">мероприятия</a></li>
+                    <li><a href="probation.html">стажировки</a></li>
                     <li><a href="index.html#studEmp">студенту и работодателю</a></li>
                     <li><a href="index.html#stories">истории успеха</a></li>
                     <li><a href="index.html#jorn">журнал</a></li>
                     <li><a href="https://www.mirea.ru/">на mirea.ru</a></li>
-                    <li><a href="#">почему выбирают нас</a></li>
+                    <li><a href="info.html">О нас</a></li>
+                    <li><a href="enter.html">Вход</a></li>
                 </ul>
             </menu>
             <div class="burger-menu">
@@ -43,13 +44,14 @@
                 </label>
                 <ul class="menubox">
                     <li><a onclick="toggle()" class="menu-item" href="vacancies.html">вакансии</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="index.html#act">мероприятия</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#">стажировки</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="activ.html">мероприятия</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="probation.html">стажировки</a></li>
                     <li><a onclick="toggle()" class="menu-item" href="index.html#studEmp">студенту и работодателю</a></li>
                     <li><a onclick="toggle()" class="menu-item" href="index.html#stories">истории успеха</a></li>
                     <li><a onclick="toggle()" class="menu-item" href="index.html#jorn">журнал</a></li>
                     <li><a onclick="toggle()" class="menu-item" href="https://www.mirea.ru/">на mirea.ru</a></li>
-                    <li><a onclick="toggle()" class="menu-item" href="#">почему выбирают нас</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="info.html">О нас</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="enter.html">Вход</a></li>
                 </ul>
             </div>
         </header>
@@ -61,10 +63,65 @@
         <div class="bl">
             <h2>Работодателю</h2>
             <ul>
-                <li><a href=""><img src="img/11.png" alt="">Условия сотрудичнества</a></li>
-                <li><a href=""><img src="img/33.png" alt="">Мероприятия</a></li>
-                <li><a href=""><img src="img/44.png" alt="">Новости</a></li>
-                <li><a href=""><img src="img/55.png" alt="">Стажировки</a></li>
+                <li class="conv">
+                    <img src="img/11.png" alt="">
+                    </span><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Условия сотрудичнества
+                    </button>
+
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    Условия сотрудичнества
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Закрыть</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="activ.html"><img src="img/33.png" alt="">Мероприятия</a></li>
+                <li><a href="activ.html"><img src="img/44.png" alt="">Новости</a></li>
+                <li><a href="probation.html"><img src="img/55.png" alt="">Стажировки</a></li>
                 <li><a href="vacancies.html"><img src="img/66.png" alt="">Вакансии (включ. раздел для лиц ОВЗ)</a></li>
             </ul>
         </div>
@@ -82,9 +139,6 @@
             <div class="py-4"></div>
             <p>Контактный телефон:</p>
             <input type="tel" placeholder="" class="string">
-            <div class="py-4"></div>
-            <p>Название организации:</p>
-            <input type="text" placeholder="" class="string">
             <div class="py-4"></div>
             <p>Желаемая зарплата:</p>
             <input type="text" placeholder="" class="string">
