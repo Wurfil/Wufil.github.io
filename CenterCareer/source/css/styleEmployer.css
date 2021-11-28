@@ -505,6 +505,7 @@ footer{
         margin: 0;
         width: 100%;
     }
+    
       .obr{
           margin-top: 3%;
           display: flex;
@@ -532,6 +533,9 @@ footer{
     .info li{
         padding-left: 10%;
         font-size: 14px;
+    }
+    .info button{
+      font-size: 14px;
     }
     .info h2{
         font-size: 22px;

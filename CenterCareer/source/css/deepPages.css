@@ -443,17 +443,23 @@ menu li a:active{
     text-align: center;
   }
   .fotblock{
-      border: solid 2px black;
-      width: 240px;
+  
+      width: auto;
       height: 300px;
   }
-  @media (max-width:1200px) {
-      .fotblock{
-          width: 220px;
-          height: 280px;
-      }
+  .fotblock img{
+    width: auto;
+    height: 300px;
+    border: solid 2px black;
   }
-  @media (max-width:700px) {
+  .about{
+    font-size: 18px;
+
+}
+  @media (max-width:1200px) {
+
+  }
+  @media (max-width:707px) {
     .bl{
         padding-left: 15%;
     }
@@ -462,21 +468,15 @@ menu li a:active{
     .bl{
         padding-left: 20%;
     }
+    .about{
+      font-size: 14px;
+  
+  }
 }
-.about{
-    font-size: 18px;
 
-}
-.winauth{
-    width: 400px;
-    height: 500px;
-    border: solid 2px darkgray;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px darkgray;
-}
 .winauth h6{
     color: rgb(148, 147, 147);
-    padding-left: 26%;
+    padding-left: 11%;
 }
 .string{
     width: 80%;
@@ -490,7 +490,6 @@ menu li a:active{
     color: #000;
   }
 .cont{
-    padding-left: 8%;
     display: flex;
     align-items: center;
 }
@@ -501,10 +500,10 @@ menu li a:active{
     border-radius: 10px;
     background-color: blue;
     color: #FFF;
-    width: 150px;
+    width: 300px;
     height: 30px;
     transform: scale(1);
-    transition: all 0.2s;
+    transition: all 0.05s;
 }
 .btns{
     display: flex;
@@ -533,12 +532,158 @@ menu li a:active{
     .winauth h3{
        font-size: 16px;
     }
-    .winauth{
-        width: 500px;
-        height: 500px;
-    }
+    .btns button{
+      width: 300px;
+  }
+  .cont{
+    font-size: 10px;
+  }
+  .locale{
+    font-size: 12px !important;
+  }
+  .vac h2{
+    font-size: 15px !important;
+}
+}
+
+@media (max-width:968px) {
+
+  .btns button{
+    width: 150px;
+}
+}
+.tags a{
+  color: blue !important;
+  text-decoration: none;
+}
+.tags a:hover{
+  color: black !important;
+
+}
+.zp h2{
+  font-weight: lighter !important;
 }
 .vac h2{
     font-weight: bold;
     font-size: 18px;
 }
+.locale{
+  font-size: 15px;
+}
+
+.ls li{
+  list-style-type: circle;
+  padding-bottom:2% ;
+}
+.ls ul{
+  padding-left: 5%;
+}
+.responsive {
+  max-width: 30px;
+  height: auto;
+}
+.btnvac{
+  margin-left: 30%;
+}
+.edit-cover{
+  margin-left: 30%;
+  width: 70%;
+}
+@media (max-width: 992px){
+.blvac {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 350px !important;
+  
+}
+.edit-cover{
+  margin-left: 20%;
+  width: 80% ;
+}
+.vac{
+  width: 100% !important;
+}
+.btnvac{
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+}
+}
+@media (max-width: 800px){
+  .edit-cover{
+    margin-left: 10%;
+    width: 90% ;
+  }
+  .vac{
+    width: 90% !important;
+  }
+}
+.pers h5{
+  color: #FFF;
+}
+.pers{
+  display: flex;
+  justify-content: space-between;
+}
+.pers .new img{
+  width: 280px !important;
+  height: 280px !important;
+}
+.inter{
+  max-width: 280px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.btninter{
+  width: 100%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: blue;
+  color: #FFF;
+}
+
+@media (max-width:1438px) {
+  .pers{
+  margin-top: 20%;
+  }
+  .pers .new{
+    width: 100%;
+  }
+  .pers h5{
+    font-size: 14px;
+  }
+}
+@media (max-width:998px) {
+  .pers{
+  margin-top: 30%;
+  }
+
+}
+@media (max-width:770px) {
+  .pers{
+  margin-top: 40%;
+  }
+
+}
+@media (max-width:576px) {
+  .pers{
+  margin-top: 50%;
+  margin-left: 20%;
+  }
+}
+@media (max-width:438px) {
+  .pers{
+  margin-top: 60%;
+  margin-left: 15%;
+  }
+}
+@media (max-width:346px) {
+  .pers{
+  margin-top: 65%;
+  margin-left: 7%;
+  }
+}
+
+

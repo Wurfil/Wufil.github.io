@@ -852,6 +852,9 @@ display: inline-block;
   .info h2{
     font-size: 25px;
   }
+  .info button{
+    width: 10%;
+  }
 }
 .responsive {
   width: 100%;

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wurfil">
+    <link rel="shortcut icon" href="img/Group (5).ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleEmployer.css">
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Редактировать информацию о организации - Центр карьеры - Московский технологический университет</title>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="logo">
+                <img src="img/airplane.png" alt="" class="responsive_mini" width="40" height="30">
+                <a href="index.html"><h2>Ценрт Карьеры</h2></a>
+            </div>
+            <menu>
+                <ul>
+                    <li><a href="vacancies.html">вакансии</a></li>
+                    <li><a href="#act">мероприятия</a></li>
+                    <li><a href="#">стажировки</a></li>
+                    <li><a href="#studEmp">студенту и работодателю</a></li>
+                    <li><a href="#stories">истории успеха</a></li>
+                    <li><a href="#jorn">журнал</a></li>
+                    <li><a href="https://www.mirea.ru/">на mirea.ru</a></li>
+                    <li><a href="info.html">О нас</a></li>
+                    <li><a href="enter.html">Вход</a></li>
+                </ul>
+            </menu>
+            <div class="burger-menu">
+                <input id="menu-toggle" type="checkbox" class="toggler"  onclick="lockScroll();"/>
+
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+                <ul class="menubox">
+                    <li><a onclick="toggle()" class="menu-item" href="vacancies.html">вакансии</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html/#act">мероприятия</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="#">стажировки</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html/#studEmp">студенту и работодателю</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html/#stories">истории успеха</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="index.html/#jorn">журнал</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="https://www.mirea.ru/">на mirea.ru</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="info.html">О нас</a></li>
+                    <li><a onclick="toggle()" class="menu-item" href="enter.html">Вход</a></li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+    <div class="py-5"></div>
+    <div class="py-3"></div>
+    <h1>Редактировать информацию о организации</h1>
+    <div class="info">
+        <div class="bl blvac">
+            <h2>Работодателю</h2>
+            <ul>
+                <li class="conv">
+                    <img src="img/11.png" alt="">
+                    </span><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Условия сотрудичнества
+                    </button>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    Условия сотрудичнества
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                    <p>4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Voluptatibus
+                                        veritatis
+                                        aperiam dolore aliquam quibusdam neque consequatur, magni eligendi
+                                        consequuntur,
+                                        eius itaque vitae quam, nulla soluta? Vitae officiis illum nostrum
+                                        tempora?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Закрыть</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </li>
+                <li><a href="activ.html"><img src="img/33.png" alt="">Мероприятия</a></li>
+                <li><a href="myvac.html"><img src="img/66.png" alt="">Мой Вакансии</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cover">
+        <form>
+            <p>Ф.И.О.:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>E-mail:</p>
+            <input type="email" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Контактный телефон:</p>
+            <input type="tel" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Название организации:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Должность:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Юридический адрес:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Физический адрес:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Сфера деятельности:</p>
+            <input type="text" placeholder="" class="string">
+            <div class="py-4"></div>
+            <p>Описание организации:</p>
+            <textarea name="" id=""></textarea>
+            <div class="py-3"></div>
+            <p>Логотип компании:</p>
+            <input type="file" placeholder="">
+            <div class="py-1"></div>
+            <h4>Выберите файл формата .jpg или .png размером менее 1Мб</h4>
+            <div class="py-3"></div>
+            <label class="cont">
+                <input type="checkbox" name="option">
+                <div class="obr">
+                <span> Я подтверждаю свою дееспособность и даю согласие на</span><button type="button" class="btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    обработку персональных данных.
+                </button>
+            </div>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>1. Субъект разрешает федеральному государственному бюджетному образовательному
+                                    учреждению высшего образования "Московский технологический университет", юридический
+                                    адрес: 119454, Москва, проспект Вернадского, 78 (далее — Университет), обработку
+                                    персональных данных, указанных в пункте 5, на нижеследующих условиях.</p>
+
+                                <p>2. Субъект дает согласие на использование в качестве каналов передачи информации,
+                                    содержащейся в обращении, открытых каналов связи сети Интернет.</p>
+
+                                <p>3. Субъект дает согласие на обработку Университетом своих персональных данных, то
+                                    есть совершение, в том числе, следующих действий: сбор, систематизацию, накопление,
+                                    хранение, уточнение (обновление, изменение), использование, распространение (в том
+                                    числе трансграничную передачу), обезличивание, блокирование, уничтожение
+                                    персональных данных в соответствии с Федеральным законом РФ от 27.07.2006 № 152-ФЗ
+                                    «О персональных данных» и Положением об информационных системах персональных данных
+                                    в МИРЭА, а также право на передачу такой информации третьим лицам, если это
+                                    необходимо для поддержания функционирования информационных систем обеспечения и
+                                    мониторинга учебного процесса, научной, организационной и финансово-экономической
+                                    деятельности Университета, и в случаях, установленных нормативными документами
+                                    вышестоящих органов и законодательством.</p>
+
+                                <p>4. Университет обязуется использовать данные Субъекта для функционирования
+                                    информационных систем обеспечения и мониторинга учебного процесса, научной,
+                                    организационной и финансово-экономической деятельности Университета в соответствии с
+                                    действующим законодательством Российской Федерации. Университет может раскрыть
+                                    правоохранительным органам любую информацию по официальному запросу в случаях,
+                                    установленных законодательством.</p>
+
+                                <p>5. Перечень персональных данных, передаваемых Университету на обработку:</p>
+
+                                <p> контактная информация;</p>
+                                <p>сведения об образовании;</p>
+                                <p>пожелания к работодателю;</p>
+                                <p>социальный статус;</p>
+                                <p>место обучения или работы.</p>
+                                <p>6. Субъект дает согласие на включение в общедоступные источники персональных данных в
+                                    рамках функционирования информационных систем обеспечения и мониторинга
+                                    образовательного процесса, научной, организационной и финансово-экономической
+                                    деятельности Университета следующих персональных данных:</p>
+
+                                <p>контактная информация;</p>
+                                <p>сведения об образовании;</p>
+                                <p>пожелания к работодателю;</p>
+                                <p>социальный статус;</p>
+                                <p>место обучения или работы.</p>
+                                <p>7. Субъект по письменному запросу имеет право на получение информации, касающейся
+                                    обработки его персональных данных.
+
+                                <p> 8. Обработка персональных данных, не включенных в общедоступные источники,
+                                    прекращается по истечении пяти лет с наступления предполагаемого года обучения, и
+                                    данные удаляются (уничтожаются) из информационных систем Университета после
+                                    указанного срока.</p>
+
+                                <p>9. При поступлении в Университет письменного заявления Субъекта о прекращении
+                                    действия настоящего Согласия персональные данные деперсонализируются в 15-дневый
+                                    срок (кроме сведений, хранение которых обусловлено требованиями законодательства
+                                    РФ).</p>
+
+                                <p>10. Настоящее согласие действует в течение срока обработки персональных данных
+                                    Субъекта.</p>
+
+                                <p>На данный момент нет содержимого, классифицированного этим термином.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </label>
+            <div class="py-2"></div>
+            <p>Captcha:</p>
+
+            <button class="send">Сохранить</button>
+        </form>
+
+    </div>
+    <div class="py-3"></div>
+    <footer>
+        <p>МИРЭА — Российский технологический университет, 2021 г.</p>
+    </footer>
+</body>
+
+</html>
