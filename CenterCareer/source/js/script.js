@@ -14,14 +14,14 @@ $(function() {
             items:2
         },
         855:{
-          items:3
+          items:2
         },
 
         1150:{
-          items:4
+          items:3
         },
         1410:{
-            items: 5
+            items: 4
         },
        
       }
