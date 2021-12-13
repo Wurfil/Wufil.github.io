@@ -356,6 +356,8 @@ menu li a:active{
 }
 .vac-1 img{
   display: inline-block;
+  max-width: 60px;
+  max-height: 20px;
 }
 .vac-1 h3{
   display: inline-block;
@@ -582,7 +584,6 @@ menu li a:active{
   background: url(../img/grad-1.png);
   
 }
-
 .news img{
   position:absolute;
   z-index: -2;
