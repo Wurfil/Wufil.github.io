@@ -354,11 +354,12 @@ menu li a:active{
 .start_btn:active{
   transform: scale(1);
 }
-.vac-1 img{
+.vac-1 .pic img{ /*****************************************/
   display: inline-block;
-  max-width: 60px;
-  max-height: 20px;
+  height: 55px;
+  width: auto;
 }
+
 .vac-1 h3{
   display: inline-block;
   font-size: 15px;
@@ -574,6 +575,7 @@ menu li a:active{
 .news a:visited{
   color: #FFF;
 }
+
 .new{
   float: left;
   display: flex;
@@ -585,6 +587,7 @@ menu li a:active{
   
 }
 .news img{
+
   position:absolute;
   z-index: -2;
 }
