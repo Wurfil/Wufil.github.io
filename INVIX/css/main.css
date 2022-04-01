@@ -1,0 +1,71 @@
+.logo {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all h2 {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.rectangle-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 340px;
+    height: 60px;
+    background: none;
+    box-shadow: none;
+}
+
+.change {
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    box-sizing: border-box;
+    background: #6850FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFF;
+    width: 220px;
+    transition: 0.3s ease-out;
+    border: none;
+    transform: scale(1);
+}
+
+.change:hover {
+    border: none;
+    transition: 0.3s ease-out;
+    transform: scale(1.05);
+}
+
+.change:visited {
+    border: none;
+    box-sizing: border-box;
+    background: #6850FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.change:active {
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-out;
+    transform: scale(0.9);
+
+}
+
+.accordion-body strong{
+    font-size: 20px;
+}
+
+.accordion-body p {
+    font-size: 20px;
+
+}
+.accordion button{
+    font-size: 25px;
+}

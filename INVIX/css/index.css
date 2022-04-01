@@ -1,0 +1,299 @@
+body {
+    background: linear-gradient(157.39deg, #7B77B4 0%, #022D58 100%);
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.all h2 {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.rectangle-logo {
+    margin-top: 20px;
+    width: 340px;
+    height: 60px;
+    background: linear-gradient(180deg, #6850FF 0%, #7B77B4 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.collapsed {
+    background-color: #7B77B4;
+}
+
+.rectangle-logo h1 {
+    color: #FFF;
+    line-height: 60px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.start-page {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.start-page img {
+    margin-top: 40px;
+    margin-right: 13%;
+}
+
+nav a {
+    margin-top: 20px;
+}
+
+nav {
+    position: relative;
+    background: #6850FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 25px;
+    height: 60px;
+    font-weight: 600;
+}
+
+ul {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    margin-top: 20px;
+    float: left;
+}
+
+nav a {
+    position: relative;
+    color: #FFF;
+    /*задаём цвет ссылки*/
+    line-height: 12px;
+    /*задаём высоту строки*/
+    text-decoration: none;
+    /*убираем подчёркивание*/
+
+}
+
+nav a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 4px;
+    /*задаём ширину линии*/
+    background-color: #FFF;
+    /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out;
+    /*задаём время анимации*/
+}
+
+nav a:hover:after,
+nav a:focus:after {
+    width: 100%;
+    /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+a:visited {
+    color: #FFF;
+}
+
+.message {
+    margin-left: 12%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.message h2 {
+    width: 90%;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.message p {
+    width: 90%;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.btns {
+    margin-left: 12%;
+    margin-top: 120px;
+}
+
+.auth {
+    float: left;
+}
+
+.auth>button {
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 49px;
+    box-sizing: border-box;
+    background: #6850FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFF;
+    width: 350px;
+    height: 70px;
+    transition: 0.3s ease-out;
+    border: none;
+    transform: scale(1);
+}
+
+.auth>button:hover {
+    border: none;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+}
+
+.auth>button:visited {
+    border: none;
+    box-sizing: border-box;
+    background: #6850FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.auth>button:active {
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-out;
+    transform: scale(0.9);
+
+}
+
+.auth .modal-title {
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.content {
+    box-sizing: border-box;
+    min-height: calc(100vh - 40px);
+}
+
+.modal-title {
+    display: flex;
+    justify-content: center;
+}
+
+.box-data-enterence {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.enter input {
+    border: #000 solid 2px;
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.in-modal button {
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.auth .modal-footer button {
+    border-radius: 10px;
+    width: 200px;
+    font-size: 30px;
+    line-height: 50px;
+    box-sizing: border-box;
+    background: #6850FF;
+    transition: 0.3s ease-out;
+    border-color: none !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.auth2 .modal-footer button {
+    width: 350px;
+}
+
+.btns .btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    background: #6850FF !important;
+    border: none !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.btns button:visited {
+    border: none !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    background: #6850FF;
+}
+
+.auth .modal-footer button:active {
+    transition: 0.3s ease-out;
+    transform: scale(0.9);
+}
+
+.auth .modal-footer button:hover {
+    transition: 0.3s ease-out;
+    background-color: #0d6efd;
+}
+
+.enter {
+    display: block;
+    margin-top: 25px;
+}
+
+.box-data-enterence button {
+    margin-top: 70px;
+    width: 400px;
+}
+
+.bl {
+    display: flex;
+    justify-content: center;
+}
+
+.enter h3 {
+    font-weight: 500;
+    display: flex;
+    color: #000;
+    font-size: 20px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+
+}

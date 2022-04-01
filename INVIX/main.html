@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>INVIX</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="bar">
+            <nav>
+                <div class=logo>
+                    <div class="rectangle-logo">
+                        <h1>INVIX Inc.</h1>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="">Задачи</a></li>
+                    <li><a href="">Проекты</a></li>
+                    <li><a href="">Профиль</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="my-5"></div>
+        <div class="projects all">
+            <div class="container">
+                <h2>Проекты</h2>
+                <div class="my-4"></div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse01" aria-expanded="false" aria-controls="collapse01">
+                                ProjectName1
+                            </button>
+                        </h2>
+                        <div id="collapse01" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample" id="target-container">
+                            <div class="accordion-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <strong class="head">Описание</strong>
+                                    </div>
+                                    <div class="my-3"></div>
+                                    <div class="row">
+                                        <p> По умолчанию он скрыт, пока
+                                            плагин свертывания не добавит соответствующие классы, которые мы используем
+                                            для
+                                            стилизации каждого элемента. Эти классы управляют общим внешним видом, а
+                                            также
+                                            отображением и скрытием с помощью переходов CSS. Вы можете изменить все это
+                                            с
+                                            помощью
+                                            собственного CSS или переопределить наши переменные по умолчанию. Также
+                                            стоит
+                                            отметить,
+                                            что практически любой HTML может быть помещен в
+                                            хотя
+                                            переход ограничивает переполнение.</p>
+                                    </div>
+                                    <div class="row">
+                                        <strong>Над проектом работают(ет)</strong>
+                                    </div>
+                                    <div class="my-3"></div>
+                                    <div class="row d-flex">
+                                        <div class="col-6">
+                                            <p>User1</p>
+                                            <p>User2</p>
+                                            <p>User3</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <strong>Список задач</strong>
+                                    </div>
+                                    <div class="my-3"></div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h3>Запланировано</h3>
+                                            <div class="accordion" id="accordion0">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapse0"
+                                                            aria-expanded="true" aria-controls="collapse0">
+                                                            Task name
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse0" class="accordion-collapse collapse"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordion0">
+                                                        <div class="accordion-body">
+                                                            <strong>Описание</strong>
+                                                            <div class="my-3"></div>
+                                                            <p> Оно
+                                                                отображается по умолчанию, пока плагин свертывания не
+                                                                добавит
+                                                                соответствующие классы, которые мы используем для
+                                                                стилизации
+                                                                каждого элемента. Эти классы управляют общим внешним
+                                                                видом,
+                                                                а
+                                                                также отображением и скрытием с помощью переходов CSS.
+                                                                Вы
+                                                                можете
+                                                                изменить все это с помощью собственного CSS или
+                                                                переопределить
+                                                                наши переменные по умолчанию. Также стоит отметить, что
+                                                                практически любой HTML может быть помещен в
+                                                                <code>.accordion-body</code>, хотя переход ограничивает
+                                                                переполнение.
+                                                            </p>
+                                                            <div class="my-3"></div>
+                                                            <strong>Срок</strong>
+                                                            <p>До 10.11.10</p>
+                                                            <div class="my-3"></div>
+                                                            <button type="button" class="btn btn-primary change"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                                Редактировать
+                                                            </button>
+                                                        </div>
+                                                        <div class="my-3"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapse1"
+                                                            aria-expanded="true" aria-controls="collapse1">
+                                                            Task name
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse1" class="accordion-collapse collapse"
+                                                        data-parent="#target-container" data-toggle="false"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordion0">
+                                                        <div class="accordion-body">
+                                                            <strong>Описание</strong>
+                                                            <div class="my-3"></div>
+                                                            <p> Оно
+                                                                отображается по умолчанию, пока плагин свертывания не
+                                                                добавит
+                                                                соответствующие классы, которые мы используем для
+                                                                стилизации
+                                                                каждого элемента. Эти классы управляют общим внешним
+                                                                видом,
+                                                                а
+                                                                также отображением и скрытием с помощью переходов CSS.
+                                                                Вы
+                                                                можете
+                                                                изменить все это с помощью собственного CSS или
+                                                                переопределить
+                                                                наши переменные по умолчанию. Также стоит отметить, что
+                                                                практически любой HTML может быть помещен в
+                                                                <code>.accordion-body</code>, хотя переход ограничивает
+                                                                переполнение.
+                                                            </p>
+                                                            <div class="my-3"></div>
+                                                            <strong>Срок</strong>
+                                                            <p>До 10.11.10</p>
+                                                            <div class="my-3"></div>
+                                                            <button type="button" class="btn btn-primary change"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                                Редактировать
+                                                            </button>
+                                                        </div>
+                                                        <div class="my-3"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3>В работе</h3>
+                                            <div class="accordion" id="accordion1">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapse2"
+                                                            aria-expanded="false" aria-controls="collapse2">
+                                                            Task name
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse2" class="accordion-collapse collapse"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordion2">
+                                                        <div class="accordion-body">
+                                                            <strong>Описание</strong>
+                                                            <div class="my-3"></div>
+                                                            <p> Оно
+                                                                отображается по умолчанию, пока плагин свертывания не
+                                                                добавит
+                                                                соответствующие классы, которые мы используем для
+                                                                стилизации
+                                                                каждого элемента. Эти классы управляют общим внешним
+                                                                видом,
+                                                                а
+                                                                также отображением и скрытием с помощью переходов CSS.
+                                                                Вы
+                                                                можете
+                                                                изменить все это с помощью собственного CSS или
+                                                                переопределить
+                                                                наши переменные по умолчанию. Также стоит отметить, что
+                                                                практически любой HTML может быть помещен в
+                                                                <code>.accordion-body</code>, хотя переход ограничивает
+                                                                переполнение.
+                                                            </p>
+                                                            <div class="my-3"></div>
+                                                            <strong>Срок</strong>
+                                                            <p>До 10.11.10</p>
+                                                            <div class="my-3"></div>
+                                                            <button type="button" class="btn btn-primary change"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                                Редактировать
+                                                            </button>
+                                                        </div>
+                                                        <div class="my-3"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3>На утверждении</h3>
+                                            <div class="accordion" id="accordion3">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                            aria-expanded="true" aria-controls="collapse3">
+                                                            Task name
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapse3" class="accordion-collapse collapse"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordion3">
+                                                        <div class="accordion-body">
+                                                            <strong>Описание</strong>
+                                                            <div class="my-3"></div>
+                                                            <p> Оно
+                                                                отображается по умолчанию, пока плагин свертывания не
+                                                                добавит
+                                                                соответствующие классы, которые мы используем для
+                                                                стилизации
+                                                                каждого элемента. Эти классы управляют общим внешним
+                                                                видом,
+                                                                а
+                                                                также отображением и скрытием с помощью переходов CSS.
+                                                                Вы
+                                                                можете
+                                                                изменить все это с помощью собственного CSS или
+                                                                переопределить
+                                                                наши переменные по умолчанию. Также стоит отметить, что
+                                                                практически любой HTML может быть помещен в
+                                                                <code>.accordion-body</code>, хотя переход ограничивает
+                                                                переполнение.
+                                                            </p>
+                                                            <div class="my-3"></div>
+                                                            <strong>Срок</strong>
+                                                            <p>До 10.11.10</p>
+                                                            <div class="my-3"></div>
+                                                            <button type="button" class="btn btn-primary change"
+                                                                data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                                                Редактировать
+                                                            </button>
+                                                        </div>
+                                                        <div class="my-3"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© IVТNX Inc. 2022</p>
+    </footer>
+
+</body>
+
+</html>

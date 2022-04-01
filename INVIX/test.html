@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>"Всё просто"</h1>
+    <script>
+        function get() {
+            $.ajax({
+                url: 'http://26.190.19.174:8000/products/get',
+                crossDomain: true,
+                dataType: 'json',
+                method: 'get',
+                success: function (Data) { console.log(Data) },
+                error: function () {
+                    console.log("error");
+                }
+            });
+
+        }
+        function post() {
+            var my_data = {
+                "prod_forms": [
+                    {
+                        "name": "string",
+                        "amount": 0,
+                        "unit_type": "string"
+                    }
+                ]
+            };
+            $.ajax({
+                url: 'http://26.190.19.174:8000/products/add',
+                method: "POST",
+                data: my_data,
+                dataType: 'json',
+                success: function () {
+                    console.log("success");
+                }
+            });
+        }
+    </script>
+
+    <button class="btn" onclick="sendRequestGet()">GEEET</button>
+    <button class="btn" onclick="sendRequestPost()">POOOST</button>
+    <script src="script/test.js" ></script>
+</body>
+
+</html>
