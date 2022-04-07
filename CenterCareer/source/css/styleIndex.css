@@ -354,7 +354,7 @@ menu li a:active{
 .start_btn:active{
   transform: scale(1);
 }
-.vac-1 .pic img{ /*****************************************/
+.pic img{
   display: inline-block;
   height: 55px;
   width: auto;
@@ -371,7 +371,7 @@ menu li a:active{
 }
 .vac-1{
   width: 600px;
-  height: 298px;
+  height: 350px;
   border: 2px solid #E9E9E9;
 }
 .vac-1 h4{
@@ -419,7 +419,7 @@ menu li a:active{
 }
 .vac-2{
   width: 600px;
-  height: 298px;
+  height: 350px;
   border: 2px dashed #E9E9E9;
 }
 .vac-2 h4{
@@ -450,11 +450,11 @@ menu li a:active{
   .vac-1 h4{
     font-size: 16px;
   }
-  .vac-1{
-    height: 320px;
+  .vac-1 p{
+    font-size: 14px;
   }
-  .vac-2{
-    height: 320px;
+  .vac-1{
+    height: 450px;
   }
   
 }
@@ -476,14 +476,16 @@ menu li a:active{
     width: 120px;
     font-size: 10px;
   }
-  
   .vac-1 button{
     width: 120px;
     font-size: 10px;
    
   }
   .vac-1{
-    height: 370px;
+    height: 480px;
+  }
+  .vac-1{
+    font-size: 10px;
   }
   .vacancies h2{
     text-align: center;
